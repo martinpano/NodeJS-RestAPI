@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://martin-pano:' + process.env.MONGO_ATLAS_PASSWORD + '@node-rest-shop-wk1qw.mongodb.net/test?retryWrites=true&w=majority');
+mongoose.connect('');
 
 const productRoutes = require('./api/routes/products');
 const orderRoutes = require('./api/routes/orders')
